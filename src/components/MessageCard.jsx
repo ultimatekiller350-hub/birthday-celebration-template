@@ -13,17 +13,21 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = ` [Recipient name],
+  const message = ` Dear Priya,
 
-Your personalized birthday message goes here.
+Happy Birthday. 🎂
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+I don't know if I've ever told you this properly, but I'm really grateful that you exist.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Out of all the people in this world, somehow our paths crossed, and that has made my life a little brighter, a little warmer, and a lot more meaningful.
 
-Happy Birthday! 🎉
+I hope today reminds you of how loved you are. Not just today because it's your birthday, but every day.
+
+No matter where life takes us, I'll always be thankful for the memories, the laughs, the conversations, and every little moment that has your name attached to it.
+
+So make a wish today. I genuinely hope this year is kinder to you, gentler to your heart, and filled with the happiness you've been giving to others.
+
+Happy Birthday, my favorite person. ❤️
 
 — Karan`;
 
